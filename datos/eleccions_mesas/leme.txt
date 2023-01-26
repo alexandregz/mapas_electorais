@@ -1,0 +1,17 @@
+Aqui vam os ficheiros de eleccions por mesas, para nom andar duplicandoos
+
+
+- para parsear concelhos:
+
+alex@vosjod:~/Desktop/Ames politica/BNG_Ames/MAPAS_tereborace/mapas_toda_a_comarca_2022-07-03/bngcomarca/datos/eleccions_mesas/congreso(main)$ for file in $(ls .); do grep -i -e 'cod_prov' -e ';Teo;'  $file >> "$file"_TEO.csv ; done
+alex@vosjod:~/Desktop/Ames politica/BNG_Ames/MAPAS_tereborace/mapas_toda_a_comarca_2022-07-03/bngcomarca/datos/eleccions_mesas/congreso(main)$ vi datos_congreso_2015-12_galiza.csv_TEO.csv
+
+- para parsear galegas, que cambiam as cabeceiras:
+
+alex@vosjod:~/Desktop/Ames politica/BNG_Ames/MAPAS_tereborace/mapas_toda_a_comarca_2022-07-03/bngcomarca/datos/eleccions_mesas/galegas(main)$ for file in $(ls Escrutinio_Definitivo_Eleccions_Parlamento_2020_mesas_Galiza.csv); do grep -e 'Censo Total' -e ';Teo;'  $file >> "$file"_TEO.csv ; done
+alex@vosjod:~/Desktop/Ames politica/BNG_Ames/MAPAS_tereborace/mapas_toda_a_comarca_2022-07-03/bngcomarca/datos/eleccions_mesas/galegas(main)$ vi Escrutinio_Definitivo_Eleccions_Parlamento_2020_mesas_Galiza.csv_TEO.csv
+alex@vosjod:~/Desktop/Ames politica/BNG_Ames/MAPAS_tereborace/mapas_toda_a_comarca_2022-07-03/bngcomarca/datos/eleccions_mesas/galegas(main)$
+
+
+
+

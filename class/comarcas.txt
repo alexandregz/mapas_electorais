@@ -1,0 +1,375 @@
+   A Coruña
+      1501 Arzúa
+         15006 Arzúa
+         15010 Boimorto
+         15066 Pino, O
+         15085 Touro
+      1502 Barbanza
+         15011 Boiro
+         15067 Pobra do Caramiñal, A
+         15072 Rianxo
+         15073 Ribeira
+      1503 A Barcala
+         15007 Baña, A
+         15056 Negreira
+      1504 Bergantiños
+         15014 Cabana de Bergantiños
+         15019 Carballo
+         15029 Coristanco
+         15041 Laracha, A
+         15040 Laxe
+         15043 Malpica de Bergantiños
+         15068 Ponteceso
+      1505 Betanzos
+         15003 Aranga
+         15009 Betanzos
+         15026 Cesuras
+         15027 Coirós
+         15032 Curtis
+         15039 Irixoa
+         15048 Miño
+         15063 Oza dos Ríos
+         15902 Oza-Cesuras
+         15064 Paderne
+         15091 Vilarmaior
+         15090 Vilasantar
+      1506 A Coruña
+         15001 Abegondo
+         15005 Arteixo
+         15008 Bergondo
+         15017 Cambre
+         15021 Carral
+         15030 Coruña, A
+         15031 Culleredo
+         15058 Oleiros
+         15075 Sada
+      1507 Eume
+         15015 Cabanas
+         15018 Capela, A
+         15050 Monfero
+         15069 Pontedeume
+         15070 Pontes de García Rodríguez, As
+      1508 Ferrol
+         15004 Ares
+         15022 Cedeira
+         15035 Fene
+         15036 Ferrol
+         15049 Moeche
+         15051 Mugardos
+         15054 Narón
+         15055 Neda
+         15076 San Sadurniño
+         15081 Somozas, As
+         15087 Valdoviño
+      1509 Fisterra
+         15023 Cee
+         15028 Corcubión
+         15034 Dumbría
+         15037 Fisterra
+         15052 Muxía
+      1510 Muros
+         15020 Carnota
+         15053 Muros
+      1511 Noia
+         15042 Lousame
+         15057 Noia
+         15062 Outes
+         15071 Porto do Son
+      1512 Ordes
+         15024 Cerceda
+         15038 Frades
+         15047 Mesía
+         15059 Ordes
+         15060 Oroso
+         15084 Tordoia
+         15086 Trazo
+      1513 Ortegal
+         15901 Cariño
+         15025 Cerdido
+         15044 Mañón
+         15061 Ortigueira
+      1514 Santiago
+         15002 Ames
+         15012 Boqueixón
+         15013 Brión
+         15078 Santiago de Compostela
+         15082 Teo
+         15088 Val do Dubra
+         15089 Vedra
+      1515 O Sar
+         15033 Dodro
+         15065 Padrón
+         15074 Rois
+      1516 Terra de Melide
+         15046 Melide
+         15079 Santiso
+         15080 Sobrado
+         15083 Toques
+      1517 Terra de Soneira
+         15016 Camariñas
+         15092 Vimianzo
+         15093 Zas
+      1518 Xallas
+         15045 Mazaricos
+         15077 Santa Comba
+   Lugo
+      2701 Os Ancares
+         27901 Baralla
+         27006 Becerreá
+         27012 Cervantes
+         27034 Navia de Suarna
+         27037 Nogais, As
+         27045 Pedrafita do Cebreiro
+      2702 Chantada
+         27009 Carballedo
+         27016 Chantada
+         27060 Taboada
+      2703 A Fonsagrada
+         27004 Baleira
+         27018 Fonsagrada, A
+         27035 Negueira de Muñiz
+      2704 Lugo
+         27011 Castroverde
+         27014 Corgo, O
+         27020 Friol
+         27023 Guntín
+         27028 Lugo
+         27039 Outeiro de Rei
+         27049 Portomarín
+         27056 Rábade
+      2705 A Mariña Central
+         27002 Alfoz
+         27902 Burela
+         27019 Foz
+         27027 Lourenzá
+         27030 Mondoñedo
+         27063 Valadouro, O
+      2706 A Mariña Occidental
+         27013 Cervo
+         27038 Ourol
+         27064 Vicedo, O
+         27066 Viveiro
+         27025 Xove
+      2707 A Mariña Oriental
+         27005 Barreiros
+         27048 Pontenova, A
+         27051 Ribadeo
+         27061 Trabada
+      2708 Meira
+         27029 Meira
+         27046 Pol
+         27053 Ribeira de Piquín
+         27054 Riotorto
+      2709 Quiroga
+         27017 Folgoso do Courel
+         27050 Quiroga
+         27052 Ribas de Sil
+      2710 Sarria
+         27024 Incio, O
+         27026 Láncara
+         27042 Paradela
+         27043 Páramo, O
+         27055 Samos
+         27057 Sarria
+         27062 Triacastela
+      2711 Terra Chá
+         27001 Abadín
+         27007 Begonte
+         27010 Castro de Rei
+         27015 Cospeito
+         27022 Guitiriz
+         27033 Muras
+         27044 Pastoriza, A
+         27065 Vilalba
+         27021 Xermade
+      2712 Terra de Lemos
+         27008 Bóveda
+         27031 Monforte de Lemos
+         27041 Pantón
+         27047 Pobra do Brollón, A
+         27058 Saviñao, O
+         27059 Sober
+      2713 A Ulloa
+         27003 Antas de Ulla
+         27032 Monterroso
+         27040 Palas de Rei
+   Ourense
+      3201 Allariz-Maceda
+         32001 Allariz
+         32007 Baños de Molgas
+         32043 Maceda
+         32055 Paderne de Allariz
+         32036 Xunqueira de Ambía
+         32037 Xunqueira de Espadanedo
+      3202 Baixa Limia
+         32006 Bande
+         32030 Entrimo
+         32041 Lobeira
+         32042 Lobios
+         32051 Muíños
+      3203 O Carballiño
+         32011 Beariz
+         32013 Boborás
+         32019 Carballiño, O
+         32035 Irixo, O
+         32045 Maside
+         32061 Piñor
+         32065 Punxín
+         32074 San Amaro
+         32076 San Cristovo de Cea
+      3204 A Limia
+         32005 Baltar
+         32012 Blancos, Os
+         32016 Calvos de Randín
+         32062 Porqueira
+         32067 Rairiz de Veiga
+         32077 Sandiás
+         32078 Sarreaus
+         32082 Trasmiras
+         32089 Vilar de Barrio
+         32090 Vilar de Santos
+         32032 Xinzo de Limia
+      3205 Ourense
+         32002 Amoeiro
+         32008 Barbadás
+         32026 Coles
+         32031 Esgos
+         32052 Nogueira de Ramuín
+         32054 Ourense
+         32058 Pereiro de Aguiar
+         32059 Peroxa, A
+         32075 San Cibrao das Viñas
+         32079 Taboadela
+         32081 Toén
+         32087 Vilamarín
+      3206 O Ribeiro
+         32003 Arnoia, A
+         32004 Avión
+         32010 Beade
+         32018 Carballeda de Avia
+         32022 Castrelo de Miño
+         32025 Cenlle
+         32027 Cortegada
+         32040 Leiro
+         32046 Melón
+         32069 Ribadavia
+      3207 Terra de Caldelas
+         32023 Castro Caldelas
+         32049 Montederramo
+         32057 Parada de Sil
+         32080 Teixeira, A
+      3208 Terra de Celanova
+         32014 Bola, A
+         32020 Cartelle
+         32024 Celanova
+         32033 Gomesende
+         32047 Merca, A
+         32056 Padrenda
+         32064 Pontedeva
+         32066 Quintela de Leirado
+         32068 Ramirás
+         32084 Verea
+      3209 Terra de Trives
+         32029 Chandrexa de Queixa
+         32044 Manzaneda
+         32063 Pobra de Trives, A
+         32070 San Xoán de Río
+      3210 Valdeorras
+         32009 Barco de Valdeorras, O
+         32015 Bolo, O
+         32017 Carballeda de Valdeorras
+         32038 Larouco
+         32060 Petín
+         32072 Rúa, A
+         32073 Rubiá
+         32083 Veiga, A
+         32088 Vilamartín de Valdeorras
+      3211 Verín
+         32021 Castrelo do Val
+         32028 Cualedro
+         32039 Laza
+         32050 Monterrei
+         32053 Oímbra
+         32071 Riós
+         32085 Verín
+         32091 Vilardevós
+      3212 Viana
+         32034 Gudiña, A
+         32048 Mezquita, A
+         32086 Viana do Bolo
+         32092 Vilariño de Conso
+   Pontevedra
+      3601 O Baixo Miño
+         36023 Guarda, A
+         36036 Oia
+         36048 Rosal, O
+         36054 Tomiño
+         36055 Tui
+      3602 Caldas
+         36005 Caldas de Reis
+         36010 Catoira
+         36015 Cuntis
+         36032 Moraña
+         36044 Pontecesures
+         36040 Portas
+         36056 Valga
+      3603 O Condado
+         36030 Mondariz
+         36031 Mondariz-Balneario
+         36034 Neves, As
+         36042 Ponteareas
+         36050 Salvaterra de Miño
+      3604 Deza
+         36020 Agolada
+         36016 Dozón
+         36024 Lalín
+         36047 Rodeiro
+         36052 Silleda
+         36059 Vila de Cruces
+      3605 O Morrazo
+         36004 Bueu
+         36008 Cangas
+         36026 Marín
+         36029 Moaña
+      3606 A Paradanta
+         36001 Arbo
+         36009 Cañiza, A
+         36013 Covelo
+         36014 Crecente
+      3607 Pontevedra
+         36002 Barro
+         36007 Campo Lameiro
+         36902 Cerdedo-Cotobade
+         36012 Cotobade
+         36025 Lama, A
+         36041 Poio
+         36043 Ponte Caldelas
+         36038 Pontevedra
+         36058 Vilaboa
+      3608 O Salnés
+         36006 Cambados
+         36022 Grove, O
+         36901 Illa de Arousa, A
+         36027 Meaño
+         36028 Meis
+         36046 Ribadumia
+         36051 Sanxenxo
+         36060 Vilagarcía de Arousa
+         36061 Vilanova de Arousa
+      3609 Tabeirós-Terra de Montes
+         36011 Cerdedo
+         36017 Estrada, A
+         36018 Forcarei
+      3610 Vigo
+         36003 Baiona
+         36019 Fornelos de Montes
+         36021 Gondomar
+         36033 Mos
+         36035 Nigrán
+         36037 Pazos de Borbén
+         36039 Porriño, O
+         36045 Redondela
+         36049 Salceda de Caselas
+         36053 Soutomaior
+         36057 Vigo
+
