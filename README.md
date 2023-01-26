@@ -10,7 +10,7 @@ Mapas da Galiza sobre as distintas eleccións celebradas no país.
 
 
 - leaflet (CDN, excepto plugin `spin`)
-- bootstrap
+- bootstrap (CDN)
 - datatables (CDN)
 - Highcharts (CDN)
 - jquery (CDN)
