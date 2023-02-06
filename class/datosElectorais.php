@@ -3,9 +3,12 @@
  * Clase para xerar datos electorais de CSVs
  */
 
+// ini_set("display_errors", 1);
+// error_reporting(E_ERROR);
+
  // ficheiros .json grandes (os de mesas censais, p.e.) podem ocupar muito
-ini_set("memory_limit", "-1");
-set_time_limit(0);
+ ini_set("memory_limit", "-1");
+ set_time_limit(0);
  
 require_once dirname(__FILE__)."/ComarcasClass.php";
 
@@ -46,7 +49,6 @@ class DatosElectorais {
             $this->_keyInicialPartidos = 14;
         }
 
-
         $this->_ficheiro = $ficheiro;
         $this->_getCabeceirasETexto();
 
@@ -58,6 +60,7 @@ class DatosElectorais {
      * Le cabeceiras e texto do csv
      */
     private function _getCabeceirasETexto() {
+        $fila = 0;
         if (($gestor = fopen($this->_ficheiro, "r")) !== FALSE) {
             // aumento de 4096 a 8192 porque em certos ficheiros das galegas nom chegaba (p.e. ELECCIONS_PARLAMENTO_GALICIA_2012_MESAS.csv)
             while (($datos = fgetcsv($gestor, 8192, ";")) !== FALSE) {
@@ -427,7 +430,7 @@ class DatosElectorais {
     public function engadirAJsonMapasINE($ficheiro_coordenadas_json, $cps_concellos_mostrar=null) {
         $json_coordenadas = json_decode(file_get_contents($ficheiro_coordenadas_json), true);
 
-        
+
         // NOTA: calculo aqui o tantos_por_cento; quizais por lóxica de negocio deberia estar en construeDatosElectoraisCsvDSM(), 
         //          pero é o que se vai a visualizar, com este formato, no datatables, tooltips, etc., tal e como debe de empregarse em leaflet, que é a función última
         //          deste json, polo que é máis coerente empregalo aqui
@@ -560,6 +563,12 @@ class DatosElectorais {
             if(preg_match('/ELECCIONS_PARLAMENTO_GALICIA_(\d)+_MESAS/', $this->_ficheiro) === 1) {
                 $v = preg_replace('/ \(.*\)$/', '', $v);
             }
+
+            // hacks:
+            // 1) PODEMOS-EU- == PODEMOS-EU
+            if($v == 'PODEMOS-EU-' || $v == 'PODEMOS-ESQUERDA UNIDA-ANOVA') $v = 'PODEMOS-EU';
+            if($v == 'B.N.G.' || $v == 'BNG-NS') $v = 'BNG';
+            if($v == 'PSdeG - PSOE') $v = 'PSdeG-PSOE';
 
             $cabeceiras[$k] = $v;
         }
