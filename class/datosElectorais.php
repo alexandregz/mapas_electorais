@@ -569,6 +569,7 @@ class DatosElectorais {
             if($v == 'PODEMOS-EU-' || $v == 'PODEMOS-ESQUERDA UNIDA-ANOVA') $v = 'PODEMOS-EU';
             if($v == 'B.N.G.' || $v == 'BNG-NS') $v = 'BNG';
             if($v == 'PSdeG - PSOE') $v = 'PSdeG-PSOE';
+            if($v == 'P.P.') $v = 'PP';
 
             $cabeceiras[$k] = $v;
         }
