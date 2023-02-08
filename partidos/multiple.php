@@ -3,6 +3,9 @@
  * Comparador de eleccions entre mapas, podese escolher concelho.
  * 
  */
+ini_set("memory_limit", "-1");
+set_time_limit(0);
+
 require_once('../class/datosElectorais.php');
 require_once('../class/ComarcasClass.php');
 require_once('../class/Partidos.php');
