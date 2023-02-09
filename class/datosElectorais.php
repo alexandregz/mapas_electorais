@@ -63,7 +63,7 @@ class DatosElectorais {
         $fila = 0;
         if (($gestor = fopen($this->_ficheiro, "r")) !== FALSE) {
             // aumento de 4096 a 8192 porque em certos ficheiros das galegas nom chegaba (p.e. ELECCIONS_PARLAMENTO_GALICIA_2012_MESAS.csv)
-            while (($datos = fgetcsv($gestor, 8192, ";")) !== FALSE) {
+            while (($datos = fgetcsv($gestor, 16384, ";")) !== FALSE) {
                 $fila++;
 
                 if($fila == 1) {
